@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/HomeFragment"
+    tools:context=".fragments.HomeFragment"
+    >
+
+    <ImageView
+        android:id="@+id/homeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:contentDescription="@string/bosnia_map" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:paddingStart="55dp"
+        android:paddingTop="17dp"
+        android:paddingEnd="55dp"
+        android:paddingBottom="17dp"
+        android:text="@string/cities"
+        android:textColor="@color/white"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946"
+        tools:ignore="RtlSymmetry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

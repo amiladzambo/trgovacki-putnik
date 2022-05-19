@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >Trgovacki putnik</string>
+    <string name="hello_world">Hello svijete!</string>
+    <string name="cities">Lista gradova</string>
+    <string name="bosnia_map">Mapa Bosne i Hercegovine</string>
+    <string name="about">O aplikaciji</string>
+    <string name="add_city">Dodaj novi grad</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474815751226",
+    "project_id": "trgovacki-putnik-f5535",
+    "storage_bucket": "trgovacki-putnik-f5535.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474815751226:android:7d5e6f4ec58a2b3feac103",
+        "android_client_info": {
+          "package_name": "com.example.trgovackiputnik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474815751226-nb5kbtageod6qb02ftg0esrb825a7clg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHQcg5yTSgwXnpcz7p9aJIV5AVOU4FnDk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474815751226-nb5kbtageod6qb02ftg0esrb825a7clg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

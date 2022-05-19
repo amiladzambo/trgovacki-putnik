@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Travel</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cities">Cities list</string>
+    <string name="bosnia_map">Bosnia map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello about fragment</string>
+    <string name="about">About</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="add_city">Add new city</string>
+</resources>

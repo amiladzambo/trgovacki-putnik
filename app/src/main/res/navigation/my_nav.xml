@@ -29,4 +29,9 @@
         android:name="com.example.trgovackiputnik.fragments.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/cityDetailsFragment"
+        android:name="com.example.trgovackiputnik.fragments.CityDetailsFragment"
+        android:label="fragment_city_details"
+        tools:layout="@layout/fragment_city_details" />
 </navigation>

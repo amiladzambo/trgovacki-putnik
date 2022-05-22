@@ -5,13 +5,20 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2265" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/drawable/ic_location.xml" value="0.2265" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout-land/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/activity_nav_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/app_bar_nav_drawer.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/cities_list.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/content_nav_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_about.xml" value="0.264" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_cities.xml" value="0.2825520833333333" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_home.xml" value="0.264" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/list_city.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_city_details.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_home.xml" value="0.152" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/fragment_home_horizontal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/list_city.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/menu/activity_nav_drawer_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/menu/app_bar_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TrgovackiPutnik/app/src/main/res/menu/my_app_bar.xml" value="0.25416666666666665" />
       </map>

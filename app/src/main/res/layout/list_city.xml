@@ -5,18 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/blue"
+    android:padding="5dp"
     >
+
     <TextView
         android:id="@+id/cityName"
+        style="@style/heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/heading"
+        android:focusable="true"
+        android:minHeight="48dp"
         android:text="Sarajevo"
+        app:drawableStartCompat="@drawable/ic_location"
+        app:iconSize='8dp'
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:drawableStartCompat="@drawable/ic_location"
-        app:iconSize = '8dp'
-        />
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:id="@+id/countryName"
@@ -27,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cityName" />
 
-    <View
+    <TextView
         android:layout_height="2dp"
         android:layout_width="match_parent"
         app:layout_constraintTop_toBottomOf="@id/countryName"

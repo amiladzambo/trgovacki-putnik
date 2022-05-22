@@ -2,21 +2,17 @@ package com.example.trgovackiputnik.fragments
 
 import android.os.Bundle
 import android.view.*
-import android.widget.Toast
-import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.Navigation
-import androidx.navigation.ui.NavigationUI
+import androidx.fragment.app.add
+import androidx.fragment.app.commit
+import androidx.fragment.app.replace
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.trgovackiputnik.R
 import com.example.trgovackiputnik.adapters.CitiesAdapter
 import com.example.trgovackiputnik.data.Cities
 import com.example.trgovackiputnik.databinding.FragmentCitiesBinding
-import com.google.android.material.navigation.NavigationView
 
 
 class CitiesFragment : Fragment() {
@@ -35,6 +31,7 @@ class CitiesFragment : Fragment() {
     ): View {
         _binding = FragmentCitiesBinding.inflate(inflater, container, false)
         val view = binding.root
+
         cities = arrayOf(
             "Sarajevo",
             "Mostar",

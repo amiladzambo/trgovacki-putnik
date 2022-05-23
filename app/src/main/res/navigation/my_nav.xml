@@ -56,8 +56,5 @@
         android:name="com.example.trgovackiputnik.fragments.AddCityFragment"
         android:label="fragment_add_city"
         tools:layout="@layout/fragment_add_city" >
-        <action
-            android:id="@+id/action_addCityFragment_to_citiesFragment"
-            app:destination="@id/citiesFragment" />
     </fragment>
 </navigation>

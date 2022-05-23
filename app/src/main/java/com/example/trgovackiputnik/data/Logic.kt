@@ -54,6 +54,7 @@ class Logic {
             brojac++;
         }
         CalculateDistances();
+        FindAllCombinations()
     }
 
     public fun AddDefaultCities(){
@@ -65,7 +66,7 @@ class Logic {
     }
 
     public fun GetAllCitiesNames():MutableList<String>{
-        var allcities:MutableList<String> = mutableListOf();
+        val allcities:MutableList<String> = mutableListOf();
         for (item in CitiesList){
             allcities.add(item.cityName);
         }

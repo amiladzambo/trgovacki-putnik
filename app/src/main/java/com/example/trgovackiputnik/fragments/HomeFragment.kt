@@ -28,7 +28,6 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        Log.i("Home", "HOME FRAGMENT")
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val view = binding.root
         binding.homeButton.setOnClickListener{
@@ -37,8 +36,8 @@ class HomeFragment : Fragment() {
 
         binding.startingCity?.setOnClickListener{
             val startingPoint: Editable? = binding.editTextCity?.text
-            Toast.makeText(context, startingPoint.toString(), Toast.LENGTH_SHORT).show()
             Global.logic.AddNewHome(startingPoint.toString())
+            view.findNavController().navigate(R.id.action_homeFragment_to_citiesFragment)
         }
 
         return view

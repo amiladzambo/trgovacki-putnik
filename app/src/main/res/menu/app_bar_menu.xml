@@ -8,7 +8,7 @@
         app:showAsAction="ifRoom"
         />
    <item
-       android:id="@+id/add_city"
+       android:id="@+id/addCityFragment"
        android:title="@string/add_city"
        android:icon="@drawable/ic_add_foreground"
        app:showAsAction="ifRoom"

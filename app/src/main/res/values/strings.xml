@@ -10,5 +10,7 @@
     <string name="close">Close</string>
     <string name="add_city">Add new city</string>
     <string name="details">Details</string>
-    <string name="calculate_routes">Calculate route</string>
+    <string name="set_as_starting_city">Set as starting city</string>
+    <string name="add_new_city">Add new city</string>
+    <string name="city_name">City name</string>
 </resources>

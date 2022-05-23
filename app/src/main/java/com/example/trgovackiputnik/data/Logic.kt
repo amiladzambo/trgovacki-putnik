@@ -1,6 +1,7 @@
 package com.example.trgovackiputnik.data
 
 import android.util.Log
+import java.util.*
 import kotlin.math.sqrt
 
 class Logic {
@@ -45,7 +46,7 @@ class Logic {
         var brojac:Int = 0;
         for (item in CitiesList){
             if(item.cityName.equals(homeTown)){
-                var tmp = CitiesList[brojac];
+                val tmp = CitiesList[brojac];
                 CitiesList[brojac] = CitiesList[0];
                 CitiesList[0] = tmp;
                 break;
@@ -57,7 +58,7 @@ class Logic {
 
     public fun AddDefaultCities(){
         CitiesList.add(City(1,"Sarajevo","Bosna i Hercegovina",43.8667,18.4167));
-        CitiesList.add(City(2,"BanjaLuka","Bosna i Hercegovina",44.7667,17.1833));
+        CitiesList.add(City(2,"Banja Luka","Bosna i Hercegovina",44.7667,17.1833));
         CitiesList.add(City(3,"Mostar","Bosna i Hercegovina",43.3494,17.8125));
         CitiesList.add(City(4,"Bijeljina","Bosna i Hercegovina",44.7500,19.2167));
         this.size = CitiesList.size;

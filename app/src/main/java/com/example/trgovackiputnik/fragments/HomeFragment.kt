@@ -1,6 +1,7 @@
 package com.example.trgovackiputnik.fragments
 
 import android.os.Bundle
+import android.text.Editable
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -35,7 +36,8 @@ class HomeFragment : Fragment() {
         }
 
         binding.startingCity?.setOnClickListener{
-            val startingPoint : EditText? = binding.editTextCity
+            val startingPoint: Editable? = binding.editTextCity?.text
+            Toast.makeText(context, startingPoint.toString(), Toast.LENGTH_SHORT).show()
             Global.logic.AddNewHome(startingPoint.toString())
         }
 

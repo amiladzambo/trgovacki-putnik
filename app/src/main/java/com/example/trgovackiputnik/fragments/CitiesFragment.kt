@@ -33,9 +33,7 @@ class CitiesFragment : Fragment() {
         _binding = FragmentCitiesBinding.inflate(inflater, container, false)
         val view = binding.root
 
-        Global.logic.AddDefaultCities()
         cities = Global.logic.GetAllCitiesNames()
-        Global.logic.FindAllCombinations()
 
         country = "Bosna i Hercegovina"
 

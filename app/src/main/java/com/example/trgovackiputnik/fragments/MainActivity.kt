@@ -12,6 +12,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.onNavDestinationSelected
 import com.example.trgovackiputnik.R
+import com.example.trgovackiputnik.data.Global
 import com.example.trgovackiputnik.databinding.ActivityMainBinding
 import com.example.trgovackiputnik.databinding.FragmentHomeBinding
 
@@ -34,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        Global.logic.AddDefaultCities()
+        Global.logic.FindAllCombinations()
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.app_bar_menu, menu)

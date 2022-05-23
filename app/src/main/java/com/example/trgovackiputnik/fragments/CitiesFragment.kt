@@ -13,6 +13,7 @@ import com.example.trgovackiputnik.R
 import com.example.trgovackiputnik.adapters.CitiesAdapter
 import com.example.trgovackiputnik.data.Cities
 import com.example.trgovackiputnik.databinding.FragmentCitiesBinding
+import com.example.trgovackiputnik.data.Global
 
 
 class CitiesFragment : Fragment() {
@@ -21,7 +22,7 @@ class CitiesFragment : Fragment() {
 
     private lateinit var newRecyclerview: RecyclerView
     private lateinit var  citiesList: ArrayList<Cities>
-    private lateinit var cities : Array<String>
+    private lateinit var cities : MutableList<String>
     private lateinit var country : String
 
     override fun onCreateView(
@@ -32,20 +33,10 @@ class CitiesFragment : Fragment() {
         _binding = FragmentCitiesBinding.inflate(inflater, container, false)
         val view = binding.root
 
-        cities = arrayOf(
-            "Sarajevo",
-            "Mostar",
-            "Banja Luka",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-            "Gornji Vakuf",
-        )
+        Global.logic.AddDefaultCities()
+        cities = Global.logic.GetAllCitiesNames()
+        Global.logic.FindAllCombinations()
+
         country = "Bosna i Hercegovina"
 
         newRecyclerview = binding.citiesRecyclerview

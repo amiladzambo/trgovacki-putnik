@@ -23,15 +23,41 @@
         <action
             android:id="@+id/action_citiesFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_citiesFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_citiesFragment_to_addCityFragment"
+            app:destination="@id/addCityFragment" />
+        <action
+            android:id="@+id/action_citiesFragment_to_cityDetailsFragment"
+            app:destination="@id/cityDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.trgovackiputnik.fragments.AboutFragment"
         android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_citiesFragment"
+            app:destination="@id/citiesFragment" />
+    </fragment>
     <fragment
         android:id="@+id/cityDetailsFragment"
         android:name="com.example.trgovackiputnik.fragments.CityDetailsFragment"
         android:label="fragment_city_details"
-        tools:layout="@layout/fragment_city_details" />
+        tools:layout="@layout/fragment_city_details" >
+        <action
+            android:id="@+id/action_cityDetailsFragment_to_citiesFragment"
+            app:destination="@id/citiesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCityFragment"
+        android:name="com.example.trgovackiputnik.fragments.AddCityFragment"
+        android:label="fragment_add_city"
+        tools:layout="@layout/fragment_add_city" >
+        <action
+            android:id="@+id/action_addCityFragment_to_citiesFragment"
+            app:destination="@id/citiesFragment" />
+    </fragment>
 </navigation>

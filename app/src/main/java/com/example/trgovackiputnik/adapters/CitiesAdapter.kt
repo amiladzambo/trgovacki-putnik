@@ -30,7 +30,6 @@ class CitiesAdapter(private val citiesList: ArrayList<Cities>) :
         holder.itemView.setOnClickListener{
             Log.i("INFO", "CLICKED")
             val activity = it!!.context as AppCompatActivity
-
             activity.supportFragmentManager.commit {
                 replace<CityDetailsFragment>(R.id.citiesListFragment)
                 setReorderingAllowed(true)

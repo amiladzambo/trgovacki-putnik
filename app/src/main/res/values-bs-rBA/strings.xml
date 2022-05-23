@@ -6,4 +6,5 @@
     <string name="bosnia_map">Mapa Bosne i Hercegovine</string>
     <string name="about">O aplikaciji</string>
     <string name="add_city">Dodaj novi grad</string>
+    <string name="calculate_routes">Izračunaj rutu</string>
 </resources>

@@ -5,9 +5,12 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.example.trgovackiputnik.R
+import com.example.trgovackiputnik.data.Global
 import com.example.trgovackiputnik.databinding.FragmentHomeBinding
 
 
@@ -27,10 +30,15 @@ class HomeFragment : Fragment() {
         Log.i("Home", "HOME FRAGMENT")
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val view = binding.root
-        binding.homeImage.setImageResource(R.drawable.map)
         binding.homeButton.setOnClickListener{
             view.findNavController().navigate(R.id.action_homeFragment_to_citiesFragment)
         }
+
+        binding.startingCity?.setOnClickListener{
+            val startingPoint : EditText? = binding.editTextCity
+            Global.logic.AddNewHome(startingPoint.toString())
+        }
+
         return view
     }
 

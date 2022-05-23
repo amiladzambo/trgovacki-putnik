@@ -12,6 +12,7 @@
         <activity
             android:name=".fragments.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+            android:parentActivityName="com.example.trgovackiputnik.fragments.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

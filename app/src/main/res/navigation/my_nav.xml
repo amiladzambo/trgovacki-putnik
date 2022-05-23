@@ -50,6 +50,10 @@
         <action
             android:id="@+id/action_cityDetailsFragment_to_citiesFragment"
             app:destination="@id/citiesFragment" />
+        <argument
+            android:name="city_id"
+            app:argType="integer"
+            android:defaultValue="1" />
     </fragment>
     <fragment
         android:id="@+id/addCityFragment"

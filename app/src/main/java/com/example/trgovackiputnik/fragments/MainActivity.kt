@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.onNavDestinationSelected
 import com.example.trgovackiputnik.R
 import com.example.trgovackiputnik.data.Global
@@ -49,6 +50,12 @@ class MainActivity : AppCompatActivity() {
         }
         val navController = findNavController(R.id.nav_host_fragment)
         return item.onNavDestinationSelected(navController) || super.onOptionsItemSelected(item)
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment)
+        appBarConfiguration = AppBarConfiguration(navController.graph)
+        return navController.navigateUp(appBarConfiguration)
+                || super.onSupportNavigateUp()
     }
 
 }
